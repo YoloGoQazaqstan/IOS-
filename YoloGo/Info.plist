@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Your location is required for xyz benefits for you</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Your location is required for xyz benefits for you</string>
+    <key>UIUserInterfaceStyle</key>
+    <string>Light</string>
+    <key>MGLMapboxAccessToken</key>
+    <string>sk.eyJ1IjoieWFzc3ktdGF4aSIsImEiOiJja21idnp0dWcxYmdjMndwaHQ2OWVrNXo0In0.PeBoVsfxaNMfF_344xbApw</string>
+</dict>
+</plist>

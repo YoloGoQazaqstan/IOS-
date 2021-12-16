@@ -1,0 +1,1388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10361E5E3CEC61C9A4B7F280 /* Pods_YoloGo_YoloGoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 375D2EA184CA47F0BC8B8575 /* Pods_YoloGo_YoloGoUITests.framework */; };
+		2EB3531C27653E28005612DA /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB3531B27653E28005612DA /* Coordinator.swift */; };
+		2EB3532027654008005612DA /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB3531F27654008005612DA /* AppCoordinator.swift */; };
+		2EB3532327654090005612DA /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB3532227654090005612DA /* BaseViewModel.swift */; };
+		4815E96D57138A66162CEED1 /* Pods_YoloGoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BE18FD18280FA999EAEF5F /* Pods_YoloGoTests.framework */; };
+		8C625A1C0DAE30A93DAC5DA2 /* Pods_YoloGo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4833DB1E4DAA99DD8E926E1B /* Pods_YoloGo.framework */; };
+		B94D21A22768414D002EEFD5 /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94D21A12768414D002EEFD5 /* OnboardingCoordinator.swift */; };
+		B94D21A427685290002EEFD5 /* AuthorizationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94D21A327685290002EEFD5 /* AuthorizationCoordinator.swift */; };
+		B94D21A62768F017002EEFD5 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94D21A52768F017002EEFD5 /* OnboardingViewController.swift */; };
+		B965561E276B73670014DB35 /* FloatingPanel in Frameworks */ = {isa = PBXBuildFile; productRef = B965561D276B73670014DB35 /* FloatingPanel */; };
+		B9698005276B6D1900EC31D4 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9698004276B6D1900EC31D4 /* UIButton.swift */; };
+		B9698007276B6D4D00EC31D4 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9698006276B6D4D00EC31D4 /* String.swift */; };
+		B969800E276B708B00EC31D4 /* ChooseAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B969800D276B708B00EC31D4 /* ChooseAddressViewController.swift */; };
+		B978D03927665DDE00309D1D /* CustomTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B978D03827665DDE00309D1D /* CustomTitleLabel.swift */; };
+		B978D03C27665F2800309D1D /* Gesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = B978D03B27665F2800309D1D /* Gesture.swift */; };
+		B978D03F27665FAE00309D1D /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B978D03E27665FAE00309D1D /* Fonts.swift */; };
+		B978D041276663F000309D1D /* CustomSubTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B978D040276663F000309D1D /* CustomSubTitleLabel.swift */; };
+		B978D043276666DE00309D1D /* Custom + UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B978D042276666DE00309D1D /* Custom + UITextField.swift */; };
+		B978D0452766709400309D1D /* CustomGradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B978D0442766709400309D1D /* CustomGradientButton.swift */; };
+		B97A27D5275F949A0031BF44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97A27D4275F949A0031BF44 /* AppDelegate.swift */; };
+		B97A27D9275F949A0031BF44 /* AuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97A27D8275F949A0031BF44 /* AuthorizationViewController.swift */; };
+		B97A27DE275F949B0031BF44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B97A27DD275F949B0031BF44 /* Assets.xcassets */; };
+		B97A27E1275F949B0031BF44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B97A27DF275F949B0031BF44 /* LaunchScreen.storyboard */; };
+		B97A27EC275F949B0031BF44 /* YoloGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97A27EB275F949B0031BF44 /* YoloGoTests.swift */; };
+		B97A27F6275F949B0031BF44 /* YoloGoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97A27F5275F949B0031BF44 /* YoloGoUITests.swift */; };
+		B97A27F8275F949B0031BF44 /* YoloGoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97A27F7275F949B0031BF44 /* YoloGoUITestsLaunchTests.swift */; };
+		B97AD7F22761200100014F72 /* PushNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97AD7F12761200100014F72 /* PushNotification.swift */; };
+		B97AD7F6276120DB00014F72 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97AD7F5276120DB00014F72 /* BaseViewController.swift */; };
+		B97AD7FC2761271A00014F72 /* Colors .swift in Sources */ = {isa = PBXBuildFile; fileRef = B97AD7FA276126B700014F72 /* Colors .swift */; };
+		B97AD7FE27612F6B00014F72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97AD7FD27612F6B00014F72 /* ViewController.swift */; };
+		B97AD80627621C6200014F72 /* SignInCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97AD80527621C6200014F72 /* SignInCell.swift */; };
+		B97AD80927621C9100014F72 /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97AD80827621C9100014F72 /* BaseCollectionViewCell.swift */; };
+		B97AD80D27621D3D00014F72 /* AuthorizationCollectionViewDataSources.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97AD80C27621D3D00014F72 /* AuthorizationCollectionViewDataSources.swift */; };
+		B99AF554276AA576002D56C0 /* MapBoxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99AF553276AA576002D56C0 /* MapBoxViewController.swift */; };
+		B99AF55A276AAA77002D56C0 /* SearchTaxiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99AF559276AAA77002D56C0 /* SearchTaxiViewController.swift */; };
+		B9CEF96B276A76C2003989CC /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF96A276A76C1003989CC /* UIView.swift */; };
+		B9CEF971276A8128003989CC /* ConfigureFloatingPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF970276A8128003989CC /* ConfigureFloatingPanel.swift */; };
+		B9CEF974276A8346003989CC /* FloatingPanelLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF973276A8346003989CC /* FloatingPanelLayout.swift */; };
+		B9CEF977276A8406003989CC /* HomeFloatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF976276A8406003989CC /* HomeFloatingViewController.swift */; };
+		B9CEF979276A8C74003989CC /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF978276A8C74003989CC /* UIViewController.swift */; };
+		B9CEF97C276A8F2E003989CC /* YoloCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF97B276A8F2E003989CC /* YoloCustomView.swift */; };
+		B9CEF97F276A9673003989CC /* CustomButton .swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF97E276A9673003989CC /* CustomButton .swift */; };
+		B9E628B92769F7A50000D2EB /* VerificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E628B82769F7A50000D2EB /* VerificationCell.swift */; };
+		B9E628BC276A08C30000D2EB /* SingleDigitField .swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E628BB276A08C30000D2EB /* SingleDigitField .swift */; };
+		B9E628BE276A096E0000D2EB /* CustomOTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E628BD276A096E0000D2EB /* CustomOTPView.swift */; };
+		B9E628C1276A1CD50000D2EB /* CustomGradientProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E628C0276A1CD50000D2EB /* CustomGradientProgressBar.swift */; };
+		B9E628C4276A1E070000D2EB /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E628C3276A1E070000D2EB /* UIImageView.swift */; };
+		B9E628C7276A44500000D2EB /* OnboardingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E628C6276A44500000D2EB /* OnboardingCell.swift */; };
+		B9E628C9276A4CA20000D2EB /* Localization.string in Sources */ = {isa = PBXBuildFile; fileRef = B9E628C8276A4CA20000D2EB /* Localization.string */; };
+		B9E628D0276A52D30000D2EB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E628CF276A52D30000D2EB /* HomeViewController.swift */; };
+		B9E628D3276A569E0000D2EB /* ConfigureMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E628D2276A569E0000D2EB /* ConfigureMapView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B97A27E8275F949B0031BF44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B97A27C9275F949A0031BF44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B97A27D0275F949A0031BF44;
+			remoteInfo = YoloGo;
+		};
+		B97A27F2275F949B0031BF44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B97A27C9275F949A0031BF44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B97A27D0275F949A0031BF44;
+			remoteInfo = YoloGo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		063F0072CF9F369D971CA969 /* Pods-YoloGo-YoloGoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoloGo-YoloGoUITests.debug.xcconfig"; path = "Target Support Files/Pods-YoloGo-YoloGoUITests/Pods-YoloGo-YoloGoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		11AED12A93FB0FDA6CFED307 /* Pods-YoloGoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoloGoTests.debug.xcconfig"; path = "Target Support Files/Pods-YoloGoTests/Pods-YoloGoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		25B545541EDED0F15E318B8D /* Pods-YoloGo-YoloGoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoloGo-YoloGoUITests.release.xcconfig"; path = "Target Support Files/Pods-YoloGo-YoloGoUITests/Pods-YoloGo-YoloGoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2EB3531B27653E28005612DA /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		2EB3531F27654008005612DA /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		2EB3532227654090005612DA /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		375D2EA184CA47F0BC8B8575 /* Pods_YoloGo_YoloGoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YoloGo_YoloGoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4833DB1E4DAA99DD8E926E1B /* Pods_YoloGo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YoloGo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B098BC350EEF6A0892631FC9 /* Pods-YoloGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoloGo.debug.xcconfig"; path = "Target Support Files/Pods-YoloGo/Pods-YoloGo.debug.xcconfig"; sourceTree = "<group>"; };
+		B94D21A12768414D002EEFD5 /* OnboardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoordinator.swift; sourceTree = "<group>"; };
+		B94D21A327685290002EEFD5 /* AuthorizationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationCoordinator.swift; sourceTree = "<group>"; };
+		B94D21A52768F017002EEFD5 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		B9698004276B6D1900EC31D4 /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		B9698006276B6D4D00EC31D4 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		B969800D276B708B00EC31D4 /* ChooseAddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseAddressViewController.swift; sourceTree = "<group>"; };
+		B978D03827665DDE00309D1D /* CustomTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTitleLabel.swift; sourceTree = "<group>"; };
+		B978D03B27665F2800309D1D /* Gesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gesture.swift; sourceTree = "<group>"; };
+		B978D03E27665FAE00309D1D /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		B978D040276663F000309D1D /* CustomSubTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSubTitleLabel.swift; sourceTree = "<group>"; };
+		B978D042276666DE00309D1D /* Custom + UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Custom + UITextField.swift"; sourceTree = "<group>"; };
+		B978D0442766709400309D1D /* CustomGradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGradientButton.swift; sourceTree = "<group>"; };
+		B97A27D1275F949A0031BF44 /* YoloGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoloGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B97A27D4275F949A0031BF44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B97A27D8275F949A0031BF44 /* AuthorizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationViewController.swift; sourceTree = "<group>"; };
+		B97A27DD275F949B0031BF44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B97A27E0275F949B0031BF44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B97A27E2275F949B0031BF44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B97A27E7275F949B0031BF44 /* YoloGoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoloGoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B97A27EB275F949B0031BF44 /* YoloGoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoloGoTests.swift; sourceTree = "<group>"; };
+		B97A27F1275F949B0031BF44 /* YoloGoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoloGoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B97A27F5275F949B0031BF44 /* YoloGoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoloGoUITests.swift; sourceTree = "<group>"; };
+		B97A27F7275F949B0031BF44 /* YoloGoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoloGoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B97AD7F12761200100014F72 /* PushNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotification.swift; sourceTree = "<group>"; };
+		B97AD7F5276120DB00014F72 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		B97AD7FA276126B700014F72 /* Colors .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Colors .swift"; sourceTree = "<group>"; };
+		B97AD7FD27612F6B00014F72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B97AD80527621C6200014F72 /* SignInCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInCell.swift; sourceTree = "<group>"; };
+		B97AD80827621C9100014F72 /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		B97AD80C27621D3D00014F72 /* AuthorizationCollectionViewDataSources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationCollectionViewDataSources.swift; sourceTree = "<group>"; };
+		B99AF553276AA576002D56C0 /* MapBoxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapBoxViewController.swift; sourceTree = "<group>"; };
+		B99AF559276AAA77002D56C0 /* SearchTaxiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTaxiViewController.swift; sourceTree = "<group>"; };
+		B9BE18FD18280FA999EAEF5F /* Pods_YoloGoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YoloGoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9CEF96A276A76C1003989CC /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		B9CEF970276A8128003989CC /* ConfigureFloatingPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureFloatingPanel.swift; sourceTree = "<group>"; };
+		B9CEF973276A8346003989CC /* FloatingPanelLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingPanelLayout.swift; sourceTree = "<group>"; };
+		B9CEF976276A8406003989CC /* HomeFloatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFloatingViewController.swift; sourceTree = "<group>"; };
+		B9CEF978276A8C74003989CC /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		B9CEF97B276A8F2E003989CC /* YoloCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoloCustomView.swift; sourceTree = "<group>"; };
+		B9CEF97E276A9673003989CC /* CustomButton .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomButton .swift"; sourceTree = "<group>"; };
+		B9E628B82769F7A50000D2EB /* VerificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationCell.swift; sourceTree = "<group>"; };
+		B9E628BB276A08C30000D2EB /* SingleDigitField .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SingleDigitField .swift"; sourceTree = "<group>"; };
+		B9E628BD276A096E0000D2EB /* CustomOTPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomOTPView.swift; sourceTree = "<group>"; };
+		B9E628C0276A1CD50000D2EB /* CustomGradientProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGradientProgressBar.swift; sourceTree = "<group>"; };
+		B9E628C3276A1E070000D2EB /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		B9E628C6276A44500000D2EB /* OnboardingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCell.swift; sourceTree = "<group>"; };
+		B9E628C8276A4CA20000D2EB /* Localization.string */ = {isa = PBXFileReference; lastKnownFileType = text; path = Localization.string; sourceTree = "<group>"; };
+		B9E628CF276A52D30000D2EB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B9E628D2276A569E0000D2EB /* ConfigureMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureMapView.swift; sourceTree = "<group>"; };
+		D585A596DF018E253E8BE2FC /* Pods-YoloGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoloGo.release.xcconfig"; path = "Target Support Files/Pods-YoloGo/Pods-YoloGo.release.xcconfig"; sourceTree = "<group>"; };
+		F4733977C89C94EB31D93DFF /* Pods-YoloGoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoloGoTests.release.xcconfig"; path = "Target Support Files/Pods-YoloGoTests/Pods-YoloGoTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B97A27CE275F949A0031BF44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B965561E276B73670014DB35 /* FloatingPanel in Frameworks */,
+				8C625A1C0DAE30A93DAC5DA2 /* Pods_YoloGo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B97A27E4275F949B0031BF44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4815E96D57138A66162CEED1 /* Pods_YoloGoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B97A27EE275F949B0031BF44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10361E5E3CEC61C9A4B7F280 /* Pods_YoloGo_YoloGoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EB3531927653DB7005612DA /* Hepler */ = {
+			isa = PBXGroup;
+			children = (
+				B9CEF97A276A8F1F003989CC /* View */,
+				B9CEF972276A832D003989CC /* FloatingPanelLayout */,
+				2EB3531A27653DFE005612DA /* Routing */,
+			);
+			path = Hepler;
+			sourceTree = "<group>";
+		};
+		2EB3531A27653DFE005612DA /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				2EB3531B27653E28005612DA /* Coordinator.swift */,
+			);
+			path = Routing;
+			sourceTree = "<group>";
+		};
+		2EB3531D27653EB5005612DA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B97A27D8275F949A0031BF44 /* AuthorizationViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2EB3531E27653EBC005612DA /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				B94D21A327685290002EEFD5 /* AuthorizationCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		2EB3532127654088005612DA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2EB3532227654090005612DA /* BaseViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		51EAAC3A6E96DDE853810BD5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B098BC350EEF6A0892631FC9 /* Pods-YoloGo.debug.xcconfig */,
+				D585A596DF018E253E8BE2FC /* Pods-YoloGo.release.xcconfig */,
+				063F0072CF9F369D971CA969 /* Pods-YoloGo-YoloGoUITests.debug.xcconfig */,
+				25B545541EDED0F15E318B8D /* Pods-YoloGo-YoloGoUITests.release.xcconfig */,
+				11AED12A93FB0FDA6CFED307 /* Pods-YoloGoTests.debug.xcconfig */,
+				F4733977C89C94EB31D93DFF /* Pods-YoloGoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A0FC352736EE18A31DFB60E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4833DB1E4DAA99DD8E926E1B /* Pods_YoloGo.framework */,
+				375D2EA184CA47F0BC8B8575 /* Pods_YoloGo_YoloGoUITests.framework */,
+				B9BE18FD18280FA999EAEF5F /* Pods_YoloGoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9698009276B6FE500EC31D4 /* Choose Address */ = {
+			isa = PBXGroup;
+			children = (
+				B969800C276B705200EC31D4 /* Coordinator  */,
+				B969800B276B704D00EC31D4 /* View */,
+				B969800A276B700600EC31D4 /* View Model */,
+			);
+			path = "Choose Address";
+			sourceTree = "<group>";
+		};
+		B969800A276B700600EC31D4 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		B969800B276B704D00EC31D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B969800D276B708B00EC31D4 /* ChooseAddressViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B969800C276B705200EC31D4 /* Coordinator  */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Coordinator ";
+			sourceTree = "<group>";
+		};
+		B978D03527664F0C00309D1D /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				2EB3531F27654008005612DA /* AppCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		B978D03727665DC700309D1D /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				B9CEF97D276A9660003989CC /* CustomButton */,
+				B9E628BF276A1CC40000D2EB /* ProgressBar */,
+				B9E628BA276A08A50000D2EB /* OTPTextField */,
+				B978D03827665DDE00309D1D /* CustomTitleLabel.swift */,
+				B978D040276663F000309D1D /* CustomSubTitleLabel.swift */,
+				B978D042276666DE00309D1D /* Custom + UITextField.swift */,
+				B978D0442766709400309D1D /* CustomGradientButton.swift */,
+			);
+			path = Layouts;
+			sourceTree = "<group>";
+		};
+		B978D03A27665F1E00309D1D /* Gesture  */ = {
+			isa = PBXGroup;
+			children = (
+				B978D03B27665F2800309D1D /* Gesture.swift */,
+			);
+			path = "Gesture ";
+			sourceTree = "<group>";
+		};
+		B978D03D27665FA200309D1D /* Constants  */ = {
+			isa = PBXGroup;
+			children = (
+				B978D03E27665FAE00309D1D /* Fonts.swift */,
+				B9E628C8276A4CA20000D2EB /* Localization.string */,
+			);
+			path = "Constants ";
+			sourceTree = "<group>";
+		};
+		B97A27C8275F949A0031BF44 = {
+			isa = PBXGroup;
+			children = (
+				B97A27D3275F949A0031BF44 /* YoloGo */,
+				B97A27EA275F949B0031BF44 /* YoloGoTests */,
+				B97A27F4275F949B0031BF44 /* YoloGoUITests */,
+				B97A27D2275F949A0031BF44 /* Products */,
+				51EAAC3A6E96DDE853810BD5 /* Pods */,
+				A0FC352736EE18A31DFB60E1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B97A27D2275F949A0031BF44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B97A27D1275F949A0031BF44 /* YoloGo.app */,
+				B97A27E7275F949B0031BF44 /* YoloGoTests.xctest */,
+				B97A27F1275F949B0031BF44 /* YoloGoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B97A27D3275F949A0031BF44 /* YoloGo */ = {
+			isa = PBXGroup;
+			children = (
+				B97A2807275F94D70031BF44 /* Application Layer */,
+				B97A2806275F94CA0031BF44 /* Presentation Layer */,
+				B97A2805275F94BE0031BF44 /* Buisness Logic Layer */,
+				B97A2804275F94B70031BF44 /* Core Layer */,
+				B97A27E2275F949B0031BF44 /* Info.plist */,
+			);
+			path = YoloGo;
+			sourceTree = "<group>";
+		};
+		B97A27EA275F949B0031BF44 /* YoloGoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B97A27EB275F949B0031BF44 /* YoloGoTests.swift */,
+			);
+			path = YoloGoTests;
+			sourceTree = "<group>";
+		};
+		B97A27F4275F949B0031BF44 /* YoloGoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B97A27F5275F949B0031BF44 /* YoloGoUITests.swift */,
+				B97A27F7275F949B0031BF44 /* YoloGoUITestsLaunchTests.swift */,
+			);
+			path = YoloGoUITests;
+			sourceTree = "<group>";
+		};
+		B97A2804275F94B70031BF44 /* Core Layer */ = {
+			isa = PBXGroup;
+			children = (
+				2EB3531927653DB7005612DA /* Hepler */,
+				B97AD7F3276120B300014F72 /* Extetions + Helps */,
+				B97A280D275F951B0031BF44 /* Resources */,
+			);
+			path = "Core Layer";
+			sourceTree = "<group>";
+		};
+		B97A2805275F94BE0031BF44 /* Buisness Logic Layer */ = {
+			isa = PBXGroup;
+			children = (
+				B97A2808275F94E00031BF44 /* Model */,
+			);
+			path = "Buisness Logic Layer";
+			sourceTree = "<group>";
+		};
+		B97A2806275F94CA0031BF44 /* Presentation Layer */ = {
+			isa = PBXGroup;
+			children = (
+				B97A2809275F94FB0031BF44 /* Authorization */,
+				B9CD40DB2767CF8E00FB6C59 /* Onboarding  */,
+				B9E628CB276A528D0000D2EB /* Loading */,
+				B9E628CA276A527C0000D2EB /* Home */,
+				B9698009276B6FE500EC31D4 /* Choose Address */,
+				B99AF555276AAA30002D56C0 /* SearchTaxi */,
+			);
+			path = "Presentation Layer";
+			sourceTree = "<group>";
+		};
+		B97A2807275F94D70031BF44 /* Application Layer */ = {
+			isa = PBXGroup;
+			children = (
+				B97AD7EF27611FCA00014F72 /* AppDelegate */,
+				B97A27DF275F949B0031BF44 /* LaunchScreen.storyboard */,
+			);
+			path = "Application Layer";
+			sourceTree = "<group>";
+		};
+		B97A2808275F94E00031BF44 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B97A2809275F94FB0031BF44 /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				2EB3531E27653EBC005612DA /* Coordinator */,
+				2EB3531D27653EB5005612DA /* Controller */,
+				B97A280B275F950F0031BF44 /* View */,
+			);
+			path = Authorization;
+			sourceTree = "<group>";
+		};
+		B97A280B275F950F0031BF44 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B97AD80A27621D1A00014F72 /* Data Source */,
+				B97AD80427621C4C00014F72 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B97A280D275F951B0031BF44 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B97A27DD275F949B0031BF44 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B97AD7EF27611FCA00014F72 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				B978D03527664F0C00309D1D /* Coordinator */,
+				B97A27D4275F949A0031BF44 /* AppDelegate.swift */,
+				B97AD7F027611FD400014F72 /* Push Notification */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		B97AD7F027611FD400014F72 /* Push Notification */ = {
+			isa = PBXGroup;
+			children = (
+				B97AD7F12761200100014F72 /* PushNotification.swift */,
+			);
+			path = "Push Notification";
+			sourceTree = "<group>";
+		};
+		B97AD7F3276120B300014F72 /* Extetions + Helps */ = {
+			isa = PBXGroup;
+			children = (
+				B978D03D27665FA200309D1D /* Constants  */,
+				B9E628C2276A1DF80000D2EB /* Extention */,
+				B97AD7F92761269F00014F72 /* UIKit  */,
+				B97AD7F82761268400014F72 /* View */,
+			);
+			path = "Extetions + Helps";
+			sourceTree = "<group>";
+		};
+		B97AD7F4276120C700014F72 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B97AD7F5276120DB00014F72 /* BaseViewController.swift */,
+				B97AD7FD27612F6B00014F72 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B97AD7F72761261A00014F72 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				B97AD7FA276126B700014F72 /* Colors .swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		B97AD7F82761268400014F72 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2EB3532127654088005612DA /* ViewModel */,
+				B97AD80727621C7F00014F72 /* CollectionView */,
+				B97AD7F4276120C700014F72 /* ViewController */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B97AD7F92761269F00014F72 /* UIKit  */ = {
+			isa = PBXGroup;
+			children = (
+				B978D03A27665F1E00309D1D /* Gesture  */,
+				B978D03727665DC700309D1D /* Layouts */,
+				B97AD7F72761261A00014F72 /* Colors */,
+			);
+			path = "UIKit ";
+			sourceTree = "<group>";
+		};
+		B97AD80427621C4C00014F72 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B97AD80527621C6200014F72 /* SignInCell.swift */,
+				B9E628B82769F7A50000D2EB /* VerificationCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B97AD80727621C7F00014F72 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				B97AD80827621C9100014F72 /* BaseCollectionViewCell.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		B97AD80A27621D1A00014F72 /* Data Source */ = {
+			isa = PBXGroup;
+			children = (
+				B97AD80B27621D2100014F72 /* CollectionView */,
+			);
+			path = "Data Source";
+			sourceTree = "<group>";
+		};
+		B97AD80B27621D2100014F72 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				B97AD80C27621D3D00014F72 /* AuthorizationCollectionViewDataSources.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		B99AF555276AAA30002D56C0 /* SearchTaxi */ = {
+			isa = PBXGroup;
+			children = (
+				B99AF558276AAA50002D56C0 /* Coordinator */,
+				B99AF557276AAA4C002D56C0 /* View */,
+				B99AF556276AAA43002D56C0 /* ViewModel */,
+			);
+			path = SearchTaxi;
+			sourceTree = "<group>";
+		};
+		B99AF556276AAA43002D56C0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B99AF557276AAA4C002D56C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B99AF559276AAA77002D56C0 /* SearchTaxiViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B99AF558276AAA50002D56C0 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		B9CD40DB2767CF8E00FB6C59 /* Onboarding  */ = {
+			isa = PBXGroup;
+			children = (
+				B9CD40DE2767D02700FB6C59 /* Coordinator */,
+				B9CD40DD2767D01700FB6C59 /* Controller */,
+				B9CD40DC2767D01300FB6C59 /* View */,
+			);
+			path = "Onboarding ";
+			sourceTree = "<group>";
+		};
+		B9CD40DC2767D01300FB6C59 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B9E628C5276A44430000D2EB /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B9CD40DD2767D01700FB6C59 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B94D21A52768F017002EEFD5 /* OnboardingViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B9CD40DE2767D02700FB6C59 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				B94D21A12768414D002EEFD5 /* OnboardingCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		B9CEF96F276A80E3003989CC /* Floating Panel */ = {
+			isa = PBXGroup;
+			children = (
+				B9CEF970276A8128003989CC /* ConfigureFloatingPanel.swift */,
+				B9CEF976276A8406003989CC /* HomeFloatingViewController.swift */,
+			);
+			path = "Floating Panel";
+			sourceTree = "<group>";
+		};
+		B9CEF972276A832D003989CC /* FloatingPanelLayout */ = {
+			isa = PBXGroup;
+			children = (
+				B9CEF973276A8346003989CC /* FloatingPanelLayout.swift */,
+			);
+			path = FloatingPanelLayout;
+			sourceTree = "<group>";
+		};
+		B9CEF97A276A8F1F003989CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B9E628D1276A56700000D2EB /* MapBox */,
+				B9CEF97B276A8F2E003989CC /* YoloCustomView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B9CEF97D276A9660003989CC /* CustomButton */ = {
+			isa = PBXGroup;
+			children = (
+				B9CEF97E276A9673003989CC /* CustomButton .swift */,
+			);
+			path = CustomButton;
+			sourceTree = "<group>";
+		};
+		B9E628BA276A08A50000D2EB /* OTPTextField */ = {
+			isa = PBXGroup;
+			children = (
+				B9E628BB276A08C30000D2EB /* SingleDigitField .swift */,
+				B9E628BD276A096E0000D2EB /* CustomOTPView.swift */,
+			);
+			path = OTPTextField;
+			sourceTree = "<group>";
+		};
+		B9E628BF276A1CC40000D2EB /* ProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				B9E628C0276A1CD50000D2EB /* CustomGradientProgressBar.swift */,
+			);
+			path = ProgressBar;
+			sourceTree = "<group>";
+		};
+		B9E628C2276A1DF80000D2EB /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				B9E628C3276A1E070000D2EB /* UIImageView.swift */,
+				B9CEF96A276A76C1003989CC /* UIView.swift */,
+				B9CEF978276A8C74003989CC /* UIViewController.swift */,
+				B9698004276B6D1900EC31D4 /* UIButton.swift */,
+				B9698006276B6D4D00EC31D4 /* String.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		B9E628C5276A44430000D2EB /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B9E628C6276A44500000D2EB /* OnboardingCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B9E628CA276A527C0000D2EB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B9E628CE276A52A90000D2EB /* Coordinator */,
+				B9E628CD276A52A60000D2EB /* View */,
+				B9E628CC276A52950000D2EB /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B9E628CB276A528D0000D2EB /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		B9E628CC276A52950000D2EB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B9E628CD276A52A60000D2EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B9CEF96F276A80E3003989CC /* Floating Panel */,
+				B9E628CF276A52D30000D2EB /* HomeViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B9E628CE276A52A90000D2EB /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		B9E628D1276A56700000D2EB /* MapBox */ = {
+			isa = PBXGroup;
+			children = (
+				B99AF553276AA576002D56C0 /* MapBoxViewController.swift */,
+				B9E628D2276A569E0000D2EB /* ConfigureMapView.swift */,
+			);
+			path = MapBox;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B97A27D0275F949A0031BF44 /* YoloGo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B97A27FB275F949B0031BF44 /* Build configuration list for PBXNativeTarget "YoloGo" */;
+			buildPhases = (
+				39C29C4FF582FFEA3FF14347 /* [CP] Check Pods Manifest.lock */,
+				B97A27CD275F949A0031BF44 /* Sources */,
+				B97A27CE275F949A0031BF44 /* Frameworks */,
+				B97A27CF275F949A0031BF44 /* Resources */,
+				7516A15E1902276CA3FC870B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YoloGo;
+			packageProductDependencies = (
+				B965561D276B73670014DB35 /* FloatingPanel */,
+			);
+			productName = YoloGo;
+			productReference = B97A27D1275F949A0031BF44 /* YoloGo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B97A27E6275F949B0031BF44 /* YoloGoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B97A27FE275F949B0031BF44 /* Build configuration list for PBXNativeTarget "YoloGoTests" */;
+			buildPhases = (
+				401A12BE2222AB8395757D5D /* [CP] Check Pods Manifest.lock */,
+				B97A27E3275F949B0031BF44 /* Sources */,
+				B97A27E4275F949B0031BF44 /* Frameworks */,
+				B97A27E5275F949B0031BF44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B97A27E9275F949B0031BF44 /* PBXTargetDependency */,
+			);
+			name = YoloGoTests;
+			productName = YoloGoTests;
+			productReference = B97A27E7275F949B0031BF44 /* YoloGoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B97A27F0275F949B0031BF44 /* YoloGoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B97A2801275F949B0031BF44 /* Build configuration list for PBXNativeTarget "YoloGoUITests" */;
+			buildPhases = (
+				CD69C73AF91C48F00B394706 /* [CP] Check Pods Manifest.lock */,
+				B97A27ED275F949B0031BF44 /* Sources */,
+				B97A27EE275F949B0031BF44 /* Frameworks */,
+				B97A27EF275F949B0031BF44 /* Resources */,
+				E37D745E8B6ED21843778386 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B97A27F3275F949B0031BF44 /* PBXTargetDependency */,
+			);
+			name = YoloGoUITests;
+			productName = YoloGoUITests;
+			productReference = B97A27F1275F949B0031BF44 /* YoloGoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B97A27C9275F949A0031BF44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					B97A27D0275F949A0031BF44 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					B97A27E6275F949B0031BF44 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = B97A27D0275F949A0031BF44;
+					};
+					B97A27F0275F949B0031BF44 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = B97A27D0275F949A0031BF44;
+					};
+				};
+			};
+			buildConfigurationList = B97A27CC275F949A0031BF44 /* Build configuration list for PBXProject "YoloGo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B97A27C8275F949A0031BF44;
+			packageReferences = (
+				B965561C276B73670014DB35 /* XCRemoteSwiftPackageReference "FloatingPanel" */,
+			);
+			productRefGroup = B97A27D2275F949A0031BF44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B97A27D0275F949A0031BF44 /* YoloGo */,
+				B97A27E6275F949B0031BF44 /* YoloGoTests */,
+				B97A27F0275F949B0031BF44 /* YoloGoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B97A27CF275F949A0031BF44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B97A27E1275F949B0031BF44 /* LaunchScreen.storyboard in Resources */,
+				B97A27DE275F949B0031BF44 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B97A27E5275F949B0031BF44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B97A27EF275F949B0031BF44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39C29C4FF582FFEA3FF14347 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YoloGo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		401A12BE2222AB8395757D5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YoloGoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7516A15E1902276CA3FC870B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YoloGo/Pods-YoloGo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YoloGo/Pods-YoloGo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YoloGo/Pods-YoloGo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD69C73AF91C48F00B394706 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YoloGo-YoloGoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E37D745E8B6ED21843778386 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YoloGo-YoloGoUITests/Pods-YoloGo-YoloGoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YoloGo-YoloGoUITests/Pods-YoloGo-YoloGoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YoloGo-YoloGoUITests/Pods-YoloGo-YoloGoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B97A27CD275F949A0031BF44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9E628B92769F7A50000D2EB /* VerificationCell.swift in Sources */,
+				B97AD7FE27612F6B00014F72 /* ViewController.swift in Sources */,
+				B9698007276B6D4D00EC31D4 /* String.swift in Sources */,
+				B9E628C9276A4CA20000D2EB /* Localization.string in Sources */,
+				B9E628C1276A1CD50000D2EB /* CustomGradientProgressBar.swift in Sources */,
+				B9CEF974276A8346003989CC /* FloatingPanelLayout.swift in Sources */,
+				B97AD80927621C9100014F72 /* BaseCollectionViewCell.swift in Sources */,
+				2EB3531C27653E28005612DA /* Coordinator.swift in Sources */,
+				B97AD80627621C6200014F72 /* SignInCell.swift in Sources */,
+				B94D21A62768F017002EEFD5 /* OnboardingViewController.swift in Sources */,
+				B97AD7F22761200100014F72 /* PushNotification.swift in Sources */,
+				B9CEF97F276A9673003989CC /* CustomButton .swift in Sources */,
+				B9E628BE276A096E0000D2EB /* CustomOTPView.swift in Sources */,
+				B978D043276666DE00309D1D /* Custom + UITextField.swift in Sources */,
+				B978D0452766709400309D1D /* CustomGradientButton.swift in Sources */,
+				2EB3532327654090005612DA /* BaseViewModel.swift in Sources */,
+				B9CEF979276A8C74003989CC /* UIViewController.swift in Sources */,
+				B978D03F27665FAE00309D1D /* Fonts.swift in Sources */,
+				B969800E276B708B00EC31D4 /* ChooseAddressViewController.swift in Sources */,
+				B94D21A427685290002EEFD5 /* AuthorizationCoordinator.swift in Sources */,
+				B94D21A22768414D002EEFD5 /* OnboardingCoordinator.swift in Sources */,
+				B99AF55A276AAA77002D56C0 /* SearchTaxiViewController.swift in Sources */,
+				B978D03C27665F2800309D1D /* Gesture.swift in Sources */,
+				B9CEF96B276A76C2003989CC /* UIView.swift in Sources */,
+				B9E628C4276A1E070000D2EB /* UIImageView.swift in Sources */,
+				B9CEF977276A8406003989CC /* HomeFloatingViewController.swift in Sources */,
+				2EB3532027654008005612DA /* AppCoordinator.swift in Sources */,
+				B9E628D0276A52D30000D2EB /* HomeViewController.swift in Sources */,
+				B9E628D3276A569E0000D2EB /* ConfigureMapView.swift in Sources */,
+				B978D03927665DDE00309D1D /* CustomTitleLabel.swift in Sources */,
+				B97AD7F6276120DB00014F72 /* BaseViewController.swift in Sources */,
+				B9E628BC276A08C30000D2EB /* SingleDigitField .swift in Sources */,
+				B978D041276663F000309D1D /* CustomSubTitleLabel.swift in Sources */,
+				B97A27D9275F949A0031BF44 /* AuthorizationViewController.swift in Sources */,
+				B9E628C7276A44500000D2EB /* OnboardingCell.swift in Sources */,
+				B97AD7FC2761271A00014F72 /* Colors .swift in Sources */,
+				B99AF554276AA576002D56C0 /* MapBoxViewController.swift in Sources */,
+				B9698005276B6D1900EC31D4 /* UIButton.swift in Sources */,
+				B9CEF971276A8128003989CC /* ConfigureFloatingPanel.swift in Sources */,
+				B97AD80D27621D3D00014F72 /* AuthorizationCollectionViewDataSources.swift in Sources */,
+				B9CEF97C276A8F2E003989CC /* YoloCustomView.swift in Sources */,
+				B97A27D5275F949A0031BF44 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B97A27E3275F949B0031BF44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B97A27EC275F949B0031BF44 /* YoloGoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B97A27ED275F949B0031BF44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B97A27F6275F949B0031BF44 /* YoloGoUITests.swift in Sources */,
+				B97A27F8275F949B0031BF44 /* YoloGoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B97A27E9275F949B0031BF44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B97A27D0275F949A0031BF44 /* YoloGo */;
+			targetProxy = B97A27E8275F949B0031BF44 /* PBXContainerItemProxy */;
+		};
+		B97A27F3275F949B0031BF44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B97A27D0275F949A0031BF44 /* YoloGo */;
+			targetProxy = B97A27F2275F949B0031BF44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B97A27DF275F949B0031BF44 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B97A27E0275F949B0031BF44 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B97A27F9275F949B0031BF44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B97A27FA275F949B0031BF44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B97A27FC275F949B0031BF44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B098BC350EEF6A0892631FC9 /* Pods-YoloGo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 67V6V79892;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YoloGo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YoloGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B97A27FD275F949B0031BF44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D585A596DF018E253E8BE2FC /* Pods-YoloGo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 67V6V79892;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YoloGo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YoloGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B97A27FF275F949B0031BF44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11AED12A93FB0FDA6CFED307 /* Pods-YoloGoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 23544X28YJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kz.YoloGoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YoloGo.app/YoloGo";
+			};
+			name = Debug;
+		};
+		B97A2800275F949B0031BF44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4733977C89C94EB31D93DFF /* Pods-YoloGoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 23544X28YJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kz.YoloGoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YoloGo.app/YoloGo";
+			};
+			name = Release;
+		};
+		B97A2802275F949B0031BF44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 063F0072CF9F369D971CA969 /* Pods-YoloGo-YoloGoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 23544X28YJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kz.YoloGoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YoloGo;
+			};
+			name = Debug;
+		};
+		B97A2803275F949B0031BF44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25B545541EDED0F15E318B8D /* Pods-YoloGo-YoloGoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 23544X28YJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kz.YoloGoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YoloGo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B97A27CC275F949A0031BF44 /* Build configuration list for PBXProject "YoloGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B97A27F9275F949B0031BF44 /* Debug */,
+				B97A27FA275F949B0031BF44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B97A27FB275F949B0031BF44 /* Build configuration list for PBXNativeTarget "YoloGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B97A27FC275F949B0031BF44 /* Debug */,
+				B97A27FD275F949B0031BF44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B97A27FE275F949B0031BF44 /* Build configuration list for PBXNativeTarget "YoloGoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B97A27FF275F949B0031BF44 /* Debug */,
+				B97A2800275F949B0031BF44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B97A2801275F949B0031BF44 /* Build configuration list for PBXNativeTarget "YoloGoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B97A2802275F949B0031BF44 /* Debug */,
+				B97A2803275F949B0031BF44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B965561C276B73670014DB35 /* XCRemoteSwiftPackageReference "FloatingPanel" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scenee/FloatingPanel";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B965561D276B73670014DB35 /* FloatingPanel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B965561C276B73670014DB35 /* XCRemoteSwiftPackageReference "FloatingPanel" */;
+			productName = FloatingPanel;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B97A27C9275F949A0031BF44 /* Project object */;
+}
